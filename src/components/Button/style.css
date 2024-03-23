@@ -8,3 +8,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.button:hover {
+    border: 1px solid #BD93F9;
+}
