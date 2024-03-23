@@ -1,0 +1,30 @@
+.input-container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.input {
+    width: 85%;
+    height: 100%;
+    border: none;
+    background-color: '#FFF';
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    padding-block: 0;
+    padding: 0 15px;
+}
+
+.input-button {
+    border: none;
+    height: 100%;
+    width: 15%;
+    border-radius: 0 5px 5px 0;
+    font-weight: bolder;
+    background-color: #ebebeb;
+    transition: background-color 0.3s ease;
+}
+
+.input-button:active {
+    background-color: #505050;
+}
