@@ -1,10 +1,7 @@
+import './index.css';
+import { HomeScreen } from './screens/HomeScreen';
 function App() {
-
-  return (
-    <>
-      <h1>Hello world</h1>
-    </>
-  )
+  return <HomeScreen />;
 }
 
 export default App
